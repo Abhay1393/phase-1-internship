@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fb;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #4b2aad, #7b4de8);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Navigation */
+nav {
+    background-color: #222;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #b9a5ff;
+}
+
+/* Sections */
+section {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    color: #4b2aad;
+    margin-bottom: 20px;
+}
+
+/* Button */
+button {
+    background-color: #6c4ce7;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #4b2aad;
+}
+
+/* Fundamentals */
+#fundamentals h3 {
+    color: #6c4ce7;
+    margin-top: 20px;
+}
+
+/* Tools */
+#tools ul {
+    padding-left: 25px;
+}
+
+#tools li {
+    margin: 10px 0;
+}
+
+/* JavaScript message */
+#message {
+    color: #4b2aad;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    section {
+        width: 95%;
+        padding: 25px;
+    }
+}
